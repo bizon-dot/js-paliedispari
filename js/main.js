@@ -48,7 +48,7 @@ function PrintResult(string){
     var div = document.createElement('div');
     div.id = 'result';
     div.innerHTML = string;
-    div.className = 'container';
+    div.className = 'container animate__rubberBand';
     document.body.appendChild(div);
 
 }
@@ -61,8 +61,9 @@ function PrintResult(string){
 */
 
 document.getElementById("play").onclick = function () {
-    // Ripulisco la div con il risultato
     // !TODO Da fixare
+    // Ripulisco la div con il risultato
+    
     // var DivResult = document.getElementById("result");
     // DivResult.remove();
      
