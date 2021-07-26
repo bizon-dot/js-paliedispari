@@ -29,7 +29,7 @@ function generateRandomNum() {
     
 */
 
-function isEvenOrOdd(sum) {
+function isEven(sum) {
     if (sum % 2 == 0)
         return true;
     else
